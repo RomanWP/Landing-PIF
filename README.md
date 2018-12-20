@@ -35,7 +35,7 @@ npm start
 npm run build
 ```
 
-Просмотр собраного проекта
+Просмотр собранного проекта
 
 ```sh
 npm run preview
