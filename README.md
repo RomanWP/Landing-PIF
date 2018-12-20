@@ -13,7 +13,7 @@
 Копируем репозиторий
 
 ```sh
- git clone https://github.com/lifenautjoe/webpack-starter-basic PROJECT-NAME
+ git clone https://github.com/RomanWP/Landing-PIF PROJECT-NAME
  cd PROJECT-NAME
 ```
 
