@@ -1,0 +1,22 @@
+@import 'src/scss/var';
+@import 'src/scss/mq'; //Media query
+@import 'src/scss/mixins';
+
+@import 'src/scss/bootstrap/bootstrap'; //v4
+//@import 'src/scss/addons/magnific-popup/main';
+//@import 'src/scss/addons/remodal/remodal';
+//@import 'src/scss/addons/slick-carousel/slick.scss';
+//@import 'src/scss/addons/slick-carousel/slick-theme.scss';
+@import 'src/scss/addons/wow/animate';
+//@import 'src/scss/addons/fancybox/jquery.fancybox';
+//@import 'src/scss/addons/fontawesome/fontawesome';
+//@import 'src/scss/addons/fontawesome/fa-regular';
+//@import 'src/scss/addons/fontawesome/fa-brands';
+//@import 'src/scss/addons/fontawesome/fa-solid';
+
+@import 'src/scss/fonts';
+@import 'src/scss/UI';
+@import 'src/scss/header';
+@import 'src/scss/footer';
+@import 'src/scss/page';
+@import 'src/scss/helpers';

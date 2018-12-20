@@ -1,0 +1,1386 @@
+.page {
+	overflow: hidden;
+}
+
+.block-1 {
+	background-image: url("../img/bg1.jpg");
+	background-size: cover;
+	padding: 110px 0 168px;
+	background-repeat: no-repeat;
+	background-position: center;
+	@include respond-below(md) {
+		padding: 70px 0 70px;
+	}
+	@include respond-below(sm) {
+		padding: 35px 0 35px;
+	}
+}
+
+.site-title {
+	.btn-wrap {
+		margin-top: 26px;
+		@include respond-below(md) {
+			margin-top: 16px;
+		}
+	}
+	p {
+		span {
+			font-weight: 700;
+		}
+		margin-bottom: 0;
+		color: $color-2;
+		font-size: 18px;
+		line-height: 24px;
+		margin-top: 17px;
+		max-width: 320px;
+		@include respond-below(md) {
+			margin-top: 9px;
+		}
+		@include respond-below(sm) {
+			font-size: 13px;
+			line-height: 16px;
+			max-width: 220px;
+		}
+	}
+	h1 {
+		strong {
+			font-weight: 700;
+		}
+		letter-spacing: 3.33px;
+		font-size: 40px;
+		font-weight: 400;
+		line-height: 44px;
+		color: $color-2;
+		text-transform: uppercase;
+		@include respond-below(md) {
+			font-size: 30px;
+			line-height: 34px;
+			letter-spacing: 1.71px;
+		}
+		@include respond-below(sm) {
+			font-size: 20px;
+			line-height: 26px;
+			letter-spacing: 1px;
+		}
+	}
+}
+
+.block-3,
+.block-4,
+.block-5,
+.block-8 {
+	padding: 80px 0 0;
+	@include respond-below(md) {
+		padding: 50px 0 0;
+	}
+	@include respond-below(sm) {
+		padding: 35px 0 0;
+	}
+}
+
+.block-2 {
+	padding: 30px 0 0;
+	@include respond-below(sm) {
+		padding: 35px 0 0;
+	}
+}
+
+.block-4 {
+	@include respond-below(md) {
+		margin-top: 10px;
+	}
+}
+
+.block-5 {
+	.title-v1 {
+		@include respond-below(md) {
+			max-width: 415px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.line-v1 {
+		margin-top: 93px;
+		@include respond-below(md) {
+			margin-top: 53px;
+		}
+		@include respond-below(sm) {
+			margin-top: 35px;
+		}
+	}
+}
+
+.block-6 {
+	.btn-wrap {
+		.btn-site {
+			padding: 14px 48px;
+		}
+		margin-top: 50px;
+		@include respond-below(sm) {
+			margin-top: 35px;
+		}
+	}
+	padding: 75px 0 0;
+	@include respond-below(md) {
+		padding: 59px 0 0;
+	}
+	@include respond-below(sm) {
+		padding: 35px 0 0;
+	}
+}
+
+.block-7 {
+	.title-v1 {
+		strong {
+			display: inline;
+		}
+		max-width: 650px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	padding: 100px 0 0;
+	@include respond-below(md) {
+		padding: 60px 0 0;
+	}
+	@include respond-below(sm) {
+		padding: 35px 0 0;
+	}
+}
+
+.block-9 {
+	.title-wrap {
+		.subtitle-v1 {
+			margin-top: 22px;
+			@include respond-below(md) {
+				margin-top: 8px;
+			}
+			@include respond-below(sm) {
+				line-height: 22px;
+			}
+			@include respond-above(md) {
+				max-width: 230px;
+			}
+		}
+		@include respond-below(md) {
+			text-align: center;
+		}
+		@include respond-below(sm) {
+			text-align: left;
+		}
+	}
+	padding: 92px 0 0;
+	@include respond-below(md) {
+		padding: 50px 0 0;
+	}
+	@include respond-below(sm) {
+		padding: 35px 0 0;
+	}
+}
+
+.icon-block-v1 {
+	.text {
+		p {
+			line-height: 20px;
+		}
+		margin-top: 12px;
+		line-height: 20px;
+		@include respond-below(md) {
+			margin: 12px -15px 0;
+		}
+		@include respond-below(sm) {
+			margin: 0 0 0 0;
+		}
+	}
+	.icon {
+		img {
+			max-width: 66px;
+			display: block;
+			height: auto;
+			max-height: 59px;
+			margin: 0 auto;
+			@include respond-below(sm) {
+				max-width: 50px;
+			}
+		}
+		height: 75px;
+		@include respond-below(sm) {
+			flex: 0 0 55px;
+			max-width: 50px;
+			margin-right: 30px;
+		}
+	}
+	margin-top: 35px;
+	text-align: center;
+	@include respond-below(sm) {
+		display: flex;
+		flex-wrap: nowrap;
+		margin-top: 15px;
+		text-align: left;
+		margin: 15px auto 0;
+		max-width: 255px;
+	}
+}
+
+.icon-block-v2 {
+	&.num-1 {
+		background-image: image-url("int1.svg");
+	}
+	&.num-2 {
+		background-image: image-url("int2.svg");
+	}
+	&.num-3 {
+		background-image: image-url("int3.svg");
+	}
+	.icon {
+		.badge-site {
+			position: absolute;
+			left: 54%;
+			bottom: 0;
+		}
+		img {
+			max-width: 60px;
+			height: auto;
+			max-height: 67px;
+			margin: 0 auto;
+			display: block;
+		}
+		margin-top: 25px;
+		height: 66px;
+		position: relative;
+	}
+	.text-block-v1 {
+		p {
+			font-size: 14px;
+		}
+		@include respond-below(sm) {
+			font-size: 14px;
+		}
+		max-width: 300px;
+		margin: 22px auto 0;
+	}
+	.title {
+		margin-bottom: 0;
+		color: $color-2;
+		font-size: 17px;
+		font-weight: 500;
+	}
+	text-align: center;
+	margin-top: 26px;
+	padding-top: 15px;
+	background-repeat: no-repeat;
+	background-position: 58% top;
+}
+
+.image-block-v1 {
+	.btn-wrap {
+		margin-top: 13px;
+		@include respond-below(lg) {
+			margin-top: 10px;
+		}
+	}
+	p {
+		margin-bottom: 0;
+	}
+	.text {
+		p {
+			color: $color-3;
+			font-size: 24px;
+			font-weight: 400;
+			line-height: 32px;
+			@include respond-below(lg) {
+				font-size: 20px;
+			}
+			@include respond-below(md) {
+				font-size: 15px;
+				line-height: 20.11px;
+			}
+			@include respond-below(sm) {
+				font-size: 20px;
+				line-height: 26.51px;
+			}
+		}
+		.small {
+			color: #8a8a8a;
+			font-size: 13px;
+			font-weight: 300;
+			line-height: 1.4;
+			@include respond-below(md) {
+				font-size: 10px;
+			}
+			@include respond-below(sm) {
+				font-size: 11px;
+			}
+		}
+		margin-top: 13px;
+		@include respond-below(md) {
+			margin-top: 5px;
+		}
+		@include respond-below(sm) {
+			margin-top: 15px;
+		}
+	}
+	.title {
+		color: $color-2;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 28px;
+		text-transform: uppercase;
+		letter-spacing: 0.75px;
+		max-width: 130px;
+		@include respond-below(lg) {
+			font-size: 16px;
+		}
+		@include respond-below(md) {
+			font-size: 14px;
+			line-height: 17.6px;
+			letter-spacing: 0.58px;
+		}
+		@include respond-below(sm) {
+			font-size: 15px;
+			line-height: 23.2px;
+			letter-spacing: 0.62px;
+		}
+	}
+	&.image-1 {
+		background-image: image-url("bg2.png");
+	}
+	&.image-2 {
+		background-image: image-url("bg3.png");
+	}
+	&.image-3 {
+		background-image: image-url("bg4.png");
+		background-position: 100% 60%;
+		@include respond-below(lg) {
+			background-position: 100% 30%;
+		}
+		@include respond-below(md) {
+			background-position: 100% 45%;
+		}
+	}
+	&:hover {
+		box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+		transition: all .2s ease-in-out;
+		border-color: #F9F9FA;
+	}
+	background-repeat: no-repeat;
+	background-position: right center;
+	height: 228px;
+	border-radius: 4px;
+	border: 1px solid rgb(218, 218, 218);
+	padding: 28px;
+	transition: all .2s ease-in-out;
+	margin-top: 32px;
+	@include respond-below(lg) {
+		padding: 18px;
+		height: 200px;
+		background-position: 100% 0%;
+	}
+	@include respond-below(md) {
+		height: 140px;
+		padding: 14px 15px 19px;
+		background-size: 50%;
+		background-position: 100% 30%;
+	}
+	@include respond-below(sm) {
+		height: 190px;
+		max-width: 290px;
+		margin: 10px auto 0;
+		padding: 20px 22px 25px;
+	}
+}
+
+.cube-inner {
+	&.cube-1 {
+		.cube {
+			&.c1 {
+				z-index: 2;
+				background-image: image-url("cube-tr.png");
+			}
+			&.c2 {
+				top: -10px;
+				z-index: 3;
+				background-image: image-url("cube-tr2.png");
+				@include respond-below(sm) {
+					top: -7px;
+				}
+			}
+		}
+		left: 129px;
+		@include respond-below(lg) {
+			left: 111px;
+		}
+		@include respond-below(md) {
+			left: 89px;
+		}
+		@include respond-below(sm) {
+			left: 84px;
+		}
+	}
+	&.cube-2 {
+		.cube {
+			&.c5 {
+				z-index: 2;
+				background-image: image-url("cube-tr.png");
+			}
+			&.c4 {
+				top: -10px;
+				z-index: 3;
+				background-image: image-url("cube-tr1.png");
+				@include respond-below(sm) {
+					top: -7px;
+				}
+			}
+			&.c3 {
+				top: -20px;
+				z-index: 4;
+				background-image: image-url("cube-tr2.png");
+				@include respond-below(sm) {
+					top: -14px;
+				}
+			}
+		}
+		left: 244px;
+		@include respond-below(lg) {
+			left: 212px;
+		}
+		@include respond-below(md) {
+			left: 168px;
+		}
+		@include respond-below(sm) {
+			left: 160px;
+		}
+	}
+	&.cube-3 {
+		.cube {
+			&.c12 {
+				z-index: 3;
+				background-image: image-url("cube-tr.png");
+			}
+			&.c11 {
+				top: -10px;
+				z-index: 4;
+				background-image: image-url("cube-tr3.png");
+				@include respond-below(sm) {
+					top: -7px;
+				}
+			}
+			&.c10 {
+				top: -20px;
+				z-index: 5;
+				background-image: image-url("cube-tr3.png");
+				@include respond-below(sm) {
+					top: -14px;
+				}
+			}
+			&.c9 {
+				top: -30px;
+				z-index: 6;
+				background-image: image-url("cube-tr4.png");
+				@include respond-below(sm) {
+					top: -21px;
+				}
+			}
+			&.c8 {
+				top: -40px;
+				z-index: 7;
+				background-image: image-url("cube-tr4.png");
+				@include respond-below(sm) {
+					top: -28px;
+				}
+			}
+			&.c7 {
+				top: -50px;
+				z-index: 8;
+				@include respond-below(sm) {
+					top: -35px;
+				}
+			}
+			&.c6 {
+				top: -60px;
+				z-index: 9;
+				@include respond-below(sm) {
+					top: -42px;
+				}
+			}
+		}
+		right: 77px;
+		@include respond-below(lg) {
+			right: 70px;
+		}
+		@include respond-below(md) {
+			right: 55px;
+		}
+	}
+	.cube {
+		width: 68px;
+		height: 47px;
+		background-image: image-url("cube.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		position: absolute;
+		left: 0;
+		@include respond-below(lg) {
+			width: 59px;
+		}
+		@include respond-below(md) {
+			width: 47px;
+		}
+	}
+	position: absolute;
+	top: -5px;
+	@include respond-below(md) {
+		top: -12px;
+	}
+}
+
+.block-4-content {
+	&:before,
+	&:after {
+		@include respond-below(md) {
+			content: " ";
+			position: absolute;
+			top: 0;
+			height: 100%;
+			background-color: #f5f5f5;
+		}
+	}
+	&:before {
+		@include respond-below(md) {
+			left: -9999px;
+			width: 9999px;
+		}
+	}
+	&:after {
+		@include respond-below(md) {
+			right: -9999px;
+			width: 9999px;
+		}
+	}
+	.top {
+		.title-v1 {
+			strong {
+				@include respond-below(md) {
+					display: inline;
+				}
+			}
+			@include respond-below(sm) {
+				max-width: 290px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+		flex: 0 0 56%;
+		max-width: 56%;
+		margin-left: 44%;
+		padding-left: 50px;
+		@include respond-below(md) {
+			flex: 0 0 100%;
+			max-width: 100%;
+			margin-left: 0;
+			padding-left: 0;
+		}
+		@include respond-below(sm) {
+			order: 1;
+		}
+	}
+	.left {
+		.cube-wrap {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+		}
+		.image {
+			img {
+				@include respond-below(lg) {
+					display: block;
+					max-width: 100%;
+					height: auto;
+				}
+			}
+			position: relative;
+			padding-top: 0;
+			margin-top: -25px;
+			@include respond-below(md) {
+				margin-top: 85px;
+			}
+			@include respond-below(sm) {
+				max-width: 290px;
+				margin: 55px auto 22px;
+			}
+		}
+		flex: 0 0 44%;
+		max-width: 44%;
+		@include respond-below(sm) {
+			order: 0;
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+	}
+	.right {
+		.text-inner {
+			.text-block-v1 {
+				p {
+					@include respond-below(sm) {
+						line-height: 20px;
+					}
+				}
+				margin-top: 19px;
+				@include respond-below(sm) {
+					margin-top: 10px;
+					line-height: 20px;
+				}
+			}
+			.btn-wrap {
+				margin-top: 35px;
+				@include respond-below(sm) {
+					margin-top: 20px;
+				}
+			}
+			@include respond-below(sm) {
+				max-width: 290px;
+				margin: 0 auto;
+			}
+		}
+		padding-left: 50px;
+		flex: 0 0 56%;
+		max-width: 56%;
+		@include respond-below(sm) {
+			padding-left: 0;
+			flex: 0 0 100%;
+			max-width: 100%;
+			order: 2;
+		}
+	}
+	.column-name {
+		> div {
+			&:nth-child(1) {
+				@include respond-below(md) {
+					margin-left: -8px;
+					margin-right: 11px;
+					@include respond-below(sm) {
+						margin-left: -5px;
+						margin-right: 7px;
+						max-width: 70px;
+					}
+				}
+			}
+			&:nth-child(2) {
+				margin-right: 32px;
+				@include respond-below(lg) {
+					margin-right: 28px;
+				}
+				@include respond-below(md) {
+					margin-right: 15px;
+				}
+			}
+			&:nth-child(3) {
+				margin-right: 68px;
+				@include respond-below(lg) {
+					margin-right: 61px;
+				}
+				@include respond-below(md) {
+					margin-right: 41px;
+				}
+				@include respond-below(sm) {
+					margin-right: 36px;
+				}
+			}
+			&:last-child {
+				margin-right: 0;
+			}
+			margin-right: 20px;
+			text-align: center;
+			line-height: 1.2;
+			margin-top: 20px;
+			@include respond-below(sm) {
+				margin-top: 12px;
+			}
+		}
+		display: flex;
+		flex-wrap: nowrap;
+		color: rgb(138, 138, 138);
+		font-size: 13px;
+		font-weight: 300;
+		@include respond-below(lg) {
+			font-size: 11px;
+			white-space: nowrap;
+		}
+		@include respond-below(md) {
+			font-size: 10px;
+		}
+		@include respond-below(sm) {
+			white-space: normal;
+		}
+	}
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 4px;
+	border: 1px solid #f5f5f5;
+	background-color: #f5f5f5;
+	padding: 70px 65px 80px 47px;
+	position: relative;
+	@include respond-below(lg) {
+		padding: 50px 35px 50px 25px;
+	}
+	@include respond-below(md) {
+		padding: 50px 0 60px 0;
+		border: none;
+		border-radius: 0;
+	}
+	@include respond-below(sm) {
+		padding: 40px 0 50px 0;
+	}
+}
+
+.step-wrap {
+	li {
+		&:last-child {
+			margin-bottom: 0;
+		}
+		.arrow {
+			&.arrow-1,
+			&.arrow-3 {
+				right: -72px;
+    			bottom: -48px;
+				width: 124px;
+				height: 73px;
+				background-image: image-url("s-arrow1.png");
+				@include respond-below(lg) {
+					right: -42px;
+				}
+				@include respond-below(md) {
+					background-image: image-url("s-arrow3.png");
+					width: 93px;
+					height: 106px;
+					right: inherit;
+					left: 44%;
+					bottom: -77px;
+				}
+				@include respond-below(sm) {
+					background-image: image-url("s-arrow4.png");
+					width: 33px;
+					height: 83px;
+					left: 50%;
+					bottom: -90px;
+					margin: 0 0 0 -16px;
+				}
+			}
+			&.arrow-2 {
+				left: -72px;
+    			bottom: -48px;
+				width: 137px;
+				height: 80px;
+				background-image: image-url("s-arrow2.png");
+				@include respond-below(lg) {
+					left: -47px;
+				}
+				@include respond-below(md) {
+					background-image: image-url("s-arrow3.png");
+					width: 93px;
+					height: 106px;
+					left: 44%;
+					bottom: -77px;
+				}
+				@include respond-below(sm) {
+					background-image: image-url("s-arrow4.png");
+					width: 33px;
+					height: 83px;
+					left: 50%;
+					bottom: -90px;
+					margin: 0 0 0 -16px;
+				}
+			}
+			position: absolute;
+			pointer-events: none;
+			background-repeat: no-repeat;
+			background-size: 100%;
+		}
+		&:nth-child(2),
+		&:nth-child(3),
+		&:nth-child(4) {
+			margin-top: -25px;
+			@include respond-below(md) {
+				margin-top: 30px;
+			}
+		}
+		&:nth-child(odd) {
+			.step-inner {
+				.image {
+					@include respond-above(lg) {
+						order: 1;
+						margin-left: 30px;
+					}
+				}
+				.text {
+					@include respond-above(lg) {
+						order: 0;
+					}
+				}
+			}
+		}
+		&:nth-child(even) {
+			.step-inner {
+				.image {
+					@include respond-above(lg) {
+						margin-right: 30px;
+					}
+				}
+				.text {
+					@include respond-above(lg) {
+						text-align: right;
+					}
+				}
+			}
+			margin-left: auto;
+		}
+		width: 50%;
+		position: relative;
+		@include respond-below(lg) {
+			width: 54%;
+		}
+		@include respond-below(md) {
+			width: 100%;
+			max-width: 580px;
+			margin: 0 auto;
+		}
+		@include respond-below(sm) {
+			margin-bottom: 90px;
+		}
+	}
+	padding: 0;
+	margin: 40px 0 0;
+	list-style: none;
+}
+
+.step-inner {
+	.image {
+		img {
+			@include respond-below(sm) {
+				margin: 0 auto;
+				display: block;
+				height: auto;
+				max-width: 100%;
+			}
+		}
+		position: relative;
+		z-index: 2;
+		@include respond-below(md) {
+			margin-right: 30px;
+		}
+		@include respond-below(sm) {
+			margin-right: 0;
+		}
+	}
+	.text-block-v1 {
+		strong {
+			font-size: 18px;
+			font-weight: 500;
+			@include respond-below(sm) {
+				font-size: 16px;
+			}
+		}
+		p {
+			margin-bottom: 0;
+			@include respond-below(sm) {
+				line-height: 22px;
+			}
+		}
+		@include respond-below(sm) {
+			text-align: center;
+			margin-top: 25px;
+			line-height: 22px;
+		}
+	}
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	@include respond-below(sm) {
+		display: block;
+		flex-wrap: wrap;
+	}
+}
+
+.block-7-content {
+	&:before,
+	&:after {
+		@include respond-below(md) {
+			content: " ";
+			position: absolute;
+			top: 0;
+			height: 100%;
+			background-color: #f5f5f5;
+		}
+	}
+	&:before {
+		@include respond-below(md) {
+			left: -9999px;
+			width: 9999px;
+		}
+	}
+	&:after {
+		@include respond-below(md) {
+			right: -9999px;
+			width: 9999px;
+		}
+	}
+	.btn-wrap {
+		margin-top: 20px;
+		@include respond-below(md) {
+			margin-top: 70px;
+		}
+		@include respond-below(sm) {
+			margin-top: 35px;
+		}
+	}
+	border-radius: 4px;
+	background-color: #f5f5f5;
+	border: 1px solid #f5f5f5;
+	padding: 70px 65px 80px;
+	position: relative;
+	@include respond-below(lg) {
+		padding: 50px 25px 50px;
+	}
+	@include respond-below(md) {
+		border-radius: 0;
+		border: none;
+		padding: 50px 0 50px;
+	}
+	@include respond-below(sm) {
+		padding: 35px 0 35px;
+	}
+}
+
+.reasons-wrap {
+	.reason-text {
+		&.reason-3,
+		&.reason-4 {
+			margin-top: 62px;
+			@include respond-below(md) {
+				margin-top: 15px;
+			}
+			@include respond-below(sm) {
+				margin-top: 25px;
+			}
+		}
+		&.active {
+			opacity: 1;
+			transition: all .2s ease-in-out;
+		}
+		&:hover {
+			opacity: 1;
+			transition: all .2s ease-in-out;
+		}
+		margin: 35px 0 50px;
+		opacity: .6;
+		cursor: pointer;
+		transition: all .2s ease-in-out;
+		@include respond-below(md) {
+			opacity: 1;
+			margin: 15px 0 15px;
+		}
+	}
+	.text-block-v1 {
+		&:before {
+			@include respond-below(sm) {
+				content: " ";
+				position: absolute;
+				background-color: $color-1;
+				border-radius: 50%;
+				width: 20px;
+				height: 20px;
+				border: 5px solid #FFF;
+				left: 0px;
+				top: 3px;
+				box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+			}
+		}
+		p {
+			margin-bottom: 0;
+			@include respond-below(sm) {
+				line-height: 22px;
+			}
+		}
+		strong {
+			font-weight: 500;
+			font-size: 18px;
+			@include respond-below(sm) {
+				font-size: 16px;
+			}
+		}
+		max-width: 240px;
+		@include respond-below(sm) {
+			line-height: 22px;
+			margin: 0 auto;
+			position: relative;
+			padding-left: 50px;
+			max-width: 240px + 50;
+		}
+	}
+	.right {
+		margin-top: 47px;
+		@include respond-below(md) {
+			margin-top: 90px;
+		}
+		@include respond-below(sm) {
+			margin-top: 30px;
+		}
+	}
+	.left {
+		.reason-text {
+			text-align: right;
+			@include respond-below(sm) {
+				text-align: left;
+			}
+		}
+		@include respond-below(md) {
+			margin-top: 30px;
+		}
+	}
+	.center {
+		max-width: 480px;
+		flex: 0 0 480px;
+		@include respond-below(md) {
+			max-width: 276px;
+			flex: 0 0 276px;
+		}
+		@include respond-below(sm) {
+			display: none;
+		}
+	}
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	@include respond-below(sm) {
+		display: block;
+		flex-wrap: wrap;
+	}
+}
+
+.reason-cube-wrap {
+	.dot-cube {
+		.dot {
+			&.cube-move {
+				&:after {
+					opacity: 1;
+				}
+			}
+			&.dot-1 {
+				&.cube-move {
+					&:before {
+						@include respond-above(md) {
+							transform: translateX(-10px);
+						}
+					}
+				}
+				&:after {
+					width: 70px;
+					height: 101px;
+					background-image: image-url("r-dot1-v2.png");
+					left: -80px;
+    				top: -89px;
+				}
+				top: 84px;
+    			left: 90px;
+	    		@include respond-below(md) {
+	    			left: 20px;
+	    			top: 62px;
+	    		}
+			}
+			&.dot-2 {
+				&.cube-move {
+					&:before {
+						@include respond-above(md) {
+							transform: translateX(10px);
+						}
+					}
+				}
+				&:after {
+					width: 70px;
+					height: 102px;
+					background-image: image-url("r-dot3-v2.png");
+					right: -101px;
+    				top: -91px;
+				}
+				top: 127px;
+    			right: 110px;
+	    		@include respond-below(md) {
+    				right: 35px;
+	    		}
+			}
+			&.dot-3 {
+				&.cube-move {
+					&:before {
+						@include respond-above(md) {
+							transform: translateX(-10px);
+						}
+					}
+				}
+				&:after {
+					width: 70px;
+					height: 91px;
+					background-image: image-url("r-dot2-v2.png");
+					left: -80px;
+	    			top: 10px;
+				}
+				top: 169px;
+    			left: 90px;
+	    		@include respond-below(md) {
+	    			top: 191px;
+	    			left: 20px;
+	    		}
+			}
+			&.dot-4 {
+				&.cube-move {
+					&:before {
+						@include respond-above(md) {
+							transform: translateX(10px);
+						}
+					}
+				}
+				&:after {
+					width: 70px;
+					height: 81px;
+					background-image: image-url("r-dot4-v2.png");
+					right: -101px;
+	    			top: 9px;
+				}
+				top: 211px;
+		    	right: 110px;
+	    		@include respond-below(md) {
+	    			top: 255px;
+	    			right: 35px;
+	    		}
+			}
+			position: absolute;
+			&:before {
+				content: " ";
+				position: absolute;
+				background-color: $color-1;
+				border-radius: 50%;
+				width: 20px;
+				height: 20px;
+				border: 5px solid #FFF;
+				transition: all .3s ease-in-out;
+			}
+			&:after {
+				content: " ";
+				position: absolute;
+				pointer-events: none;
+				background-repeat: no-repeat;
+				background-size: 100%;
+				transition: all .3s ease-in-out;
+				opacity: .3;
+				@include respond-below(md) {
+					content: none;
+				}
+			}
+		}
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		z-index: 4;
+	}
+	position: relative;
+}
+
+.reason-cube {
+	.button-cube {
+		width: 387px;
+		height: 203px;
+		background-image: image-url("r-bottom.png");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		top: 150px;
+		position: absolute;
+		left: -50px;
+	}
+	.cube {
+		&.cube-1 {
+			&.cube-hover {
+				@include respond-above(md) {
+					background-image: image-url("r-block-h.png") !important;
+				}
+			}
+			&.cube-move {
+				@include respond-above(md) {
+					transform: translateX(-10px);
+				}
+			}
+			z-index: 4;
+			background-image: image-url("r-block-h.png");
+			@include respond-below(md) {
+				background-image: image-url("r-block-3.png");
+			}
+		}
+		&.cube-2 {
+			&.cube-move {
+				@include respond-above(md) {
+					transform: translateX(10px);
+				}
+			}
+			top: 42px;
+			z-index: 3;
+			@include respond-below(md) {
+				top: 64px;
+			}
+		}
+		&.cube-3 {
+			&.cube-move {
+				@include respond-above(md) {
+					transform: translateX(-10px);
+				}
+			}
+			top: 42px + 42;
+			z-index: 2;
+			@include respond-below(md) {
+				top: 64px + 64;
+				opacity: .9;
+			}
+		}
+		&.cube-4 {
+			&.cube-move {
+				@include respond-above(md) {
+					transform: translateX(10px);
+				}
+			}
+			top: 42px + 42 + 42;
+			z-index: 1;
+			@include respond-below(md) {
+				top: 64px + 64 + 64;
+				opacity: .8;
+			}
+		}
+		&.cube-hover {
+			@include respond-above(md) {
+				background-image: image-url("r-block-a.png");
+				transition: all .3s ease-in-out;
+				transform: translateZ(0);
+			}
+		}
+		width: 283px;
+		height: 186px;
+		background-image: image-url("r-block.png");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center;
+		position: absolute;
+		left: 0;
+		transition: all .3s ease-in-out;
+		@include respond-above(lg) {
+			background-size: 100% 100%;
+		}
+		@include respond-below(md) {
+			width: 220px;
+			height: 144px;
+			background-image: image-url("r-block-2.png");
+			left: 50%;
+			transform: translate(-50%);
+		}
+	}
+	padding: 0;
+	margin: 50px auto 0;
+	list-style: none;
+	position: relative;
+	width: 282px;
+}
+
+.faq-wrap {
+	margin-left: auto;
+	max-width: 640px;
+	@include respond-below(lg) {
+		padding-left: 25px;
+	}
+	@include respond-below(md) {
+		max-width: 515px;
+		padding-left: 0;
+		margin-right: auto;
+		margin-top: 40px;
+	}
+	@include respond-below(sm) {
+		margin-top: 15px;
+		padding-left: 17px;
+	}
+}
+
+.faq-accordion {
+	.text-block-v1 {
+		p {
+			@include respond-below(sm) {
+				line-height: 22px;
+			}
+			margin-bottom: 0;
+		}
+		padding-bottom: 5px;
+		padding-top: 25px;
+		@include respond-below(sm) {
+			line-height: 22px;
+		}
+		@include respond-below(sm) {
+			padding-top: 15px;
+		}
+	}
+	li {
+		>.link {
+			&:before {
+				content: " ";
+				position: absolute;
+				left: -16px;
+				top: 5px;
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 3.5px 0 3.5px 4px;
+				border-color: transparent transparent transparent $color-1;
+				@include respond-below(sm) {
+					top: 8px;
+				}
+			}
+			&[aria-expanded="true"] {
+				&:hover {
+					color: $color-2;
+				}
+				&:before {
+					top: 7px;
+					border-width: 4px 3.5px 0 3.5px;
+					border-color: $color-1 transparent transparent transparent;
+				}
+			}
+			&:hover {
+				color: $color-1;
+			}
+			@include decoration-off();
+			color: $color-2;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 16px;
+			display: block;
+			position: relative;
+			@include respond-below(lg) {
+				font-size: 17px;
+			}
+			@include respond-below(md) {
+				font-size: 18px;
+			}
+			@include respond-below(sm) {
+				font-size: 16px;
+				line-height: 22px;
+			}
+		}
+		&:last-child {
+			margin-bottom: 0;
+		}
+		margin-bottom: 25px;
+		@include respond-below(sm) {
+			margin-bottom: 20px;
+		}
+	}
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}

@@ -1,0 +1,9 @@
+$color-1: #c8102e;
+$color-2: #262626;
+$color-3: #117d0d;
+
+$dir-img: "../img/";
+
+@function image-url($url) {
+        @return url($dir-img + $url);
+}

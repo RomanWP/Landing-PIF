@@ -1,0 +1,89 @@
+.site-header {
+	.logo-wrap {
+		@include respond-below(md) {
+			img {
+				max-width: 145px;
+				display: block;
+				height: 36px;
+			}
+			max-width: 145px;
+		}
+	}
+	padding: 24px 0 30px;
+	@include respond-below(md) {
+		padding: 14px 0 15px;
+	}
+}
+
+.logo-wrap {
+	&:hover {
+		color: #000;
+	}
+	.text {
+		padding-top: 2px;
+		color: #000;
+		font-family: "Stem Text";
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 18px;
+		letter-spacing: 0.91px;
+		text-transform: uppercase;
+	}
+	.logo {
+		flex: 0 0 48px;
+		max-width: 48px;
+		height: 47px;
+		display: inline-block;
+		background-color: $color-1;
+		margin-right: 10px;
+		background-image: image-url("logo.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 12px;
+	}
+	display: flex;
+	flex-wrap: nowrap;
+	@include decoration-off();
+}
+
+.navbar-nav {
+	.nav-item {
+		.nav-link {
+			&:hover {
+				color: $color-1;
+			}
+			color: #000;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 14px;
+			text-transform: uppercase;
+			letter-spacing: 0.8px;
+			@include respond-below(md) {
+				font-size: 10px;
+				letter-spacing: 0.57px;
+			}
+		}
+		&:last-child {
+			margin-right: 0;
+		}
+		@include respond-above(sm) {
+			margin-right: 35px;
+			@include respond-below(md) {
+				margin-right: 30px;
+			}
+		}
+	}
+	@include respond-below(sm) {
+		padding-top: 14px;
+	}
+}
+
+.navbar-toggler {
+	.navbar-toggler-icon {
+		background-image: image-url("menu.svg");
+		background-size: 18px 14px;
+	}
+	&:active,
+	&:focus {
+		outline: none;
+	}
+}
