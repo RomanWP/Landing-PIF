@@ -13,14 +13,14 @@
 Копируем репозиторий
 
 ```sh
- git clone https://github.com/lifenautjoe/webpack-starter-basic PROJECT-NAME
+ git clone https://github.com/RomanWP/Landing-PIF PROJECT-NAME
  cd PROJECT-NAME
 ```
 
 Установка npm зависимостей
 
 ```sh
- npm install 
+npm install 
 ```
 
 Запуск сервера для разработки
@@ -35,7 +35,7 @@ npm start
 npm run build
 ```
 
-Просмотр собраного проекта
+Просмотр собранного проекта
 
 ```sh
 npm run preview
